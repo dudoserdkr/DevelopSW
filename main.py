@@ -1,5 +1,6 @@
-def vivaMechMat():
-    print("Viva Mech-mat faculty!!!")
+import telebot
 
-for i in range(10):
-    print("Hello, World")
+bot = telebot.TeleBot('6694421802:AAGTp2yTGb8UZ-NLCJQ2o1It1BmHsbuIRIY')
+
+
+
