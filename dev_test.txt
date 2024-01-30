@@ -3,3 +3,7 @@ while i < 12:
     i += 1
 
 print(i)
+
+i -= 5
+
+print(i)
