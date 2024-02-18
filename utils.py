@@ -13,3 +13,13 @@ def isprime(a):
             return False
 
 
+def power_of_5(a):
+    while a > 1:
+        if a % 5 == 0:
+            a //= 5
+
+        else:
+            return False
+
+    return True
+
